@@ -1,18 +1,23 @@
 import React from 'react'
 import './Heder.css'
 import ashik from '../../images/Logo.svg'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 const Heder = () => {
   return (
-    <nav className='header'>
+    <div className='header'>
       <img src={ashik} alt='' />
-      <div>
-        <Link to='/shop'>Shop</Link>
-        <Link to='/order'>Order</Link>
-        <Link to='/inventory'>Inventory</Link>
-        <Link to='about'>About</Link>
-      </div>
-    </nav>
+      <nav>
+        <NavLink
+          className={({ isActive }) => (isActive ? 'active' : undefined)}
+          to='/shop'
+        >
+          Shop
+        </NavLink>
+        <NavLink to='/order'>Order</NavLink>
+        <NavLink to='/inventory'>Inventory</NavLink>
+        <NavLink to='about'>About</NavLink>
+      </nav>
+    </div>
   )
 }
 
