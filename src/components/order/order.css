@@ -17,6 +17,7 @@
   height: 300px;
 }
 .orders-container {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 400px;
+  padding: 10px;
 }
