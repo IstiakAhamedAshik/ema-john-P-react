@@ -1,0 +1,25 @@
+.reviewItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 7px;
+}
+.image img {
+  width: 90px;
+}
+.details p {
+  width: 290px;
+  font-size: 13px;
+  margin: 8px;
+}
+.del-btn {
+  background-color: black;
+  padding: 5px;
+  color: rgb(255, 0, 0);
+  font-size: 22px;
+  border-radius: 30%;
+  cursor: pointer;
+}

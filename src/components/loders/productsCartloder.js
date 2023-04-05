@@ -7,7 +7,7 @@ export const productsCartloader = async () => {
   //get Cart
   const savecart = getShoppingCart()
   const previousCart = []
-  console.log(savecart)
+
   for (const id in savecart) {
     const addedProduct = products.find((product) => product.id === id)
     if (addedProduct) {

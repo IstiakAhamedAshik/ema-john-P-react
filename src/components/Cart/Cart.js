@@ -15,7 +15,7 @@ const Cart = (props) => {
   const grandTotal = total + shippingCharge + taxT
   return (
     <div className='cart'>
-      <h4 style={{ textAlign: 'center' }}>Order Summary</h4>
+      <h4>Order Summary</h4>
       <h6>Selected Items : {quantity}</h6>
       <h6>Total Price : ${total}</h6>
       <h6>Total Shipping Charge : {shippingCharge}$</h6>

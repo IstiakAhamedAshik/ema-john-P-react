@@ -1,0 +1,22 @@
+.main-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.full-orders {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.order-container {
+  background-color: burlywood;
+  border: 2px solid rgb(102, 65, 163);
+  border-radius: 5px;
+  height: 300px;
+}
+.orders-container {
+  overflow-y: scroll;
+  height: 400px;
+}
