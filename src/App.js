@@ -11,7 +11,7 @@ function App() {
       path: '/',
       element: <Navbar></Navbar>,
       children: [
-        { path: '/shop', element: <Shop></Shop> },
+        { path: '/', element: <Shop></Shop> },
         {
           path: '/order',
           loader: productsCartloader,

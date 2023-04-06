@@ -9,7 +9,7 @@ const Heder = () => {
       <nav>
         <NavLink
           className={({ isActive }) => (isActive ? 'active' : undefined)}
-          to='/shop'
+          to='/'
         >
           Shop
         </NavLink>
