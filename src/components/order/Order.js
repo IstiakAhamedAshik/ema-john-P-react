@@ -6,7 +6,7 @@ import './order.css'
 import { removeFromdb } from '../../utilities/fakedb'
 
 const Order = () => {
-  const { products, previousCart } = useLoaderData()
+  const { previousCart } = useLoaderData()
   const [cart, setCart] = useState(previousCart)
 
   const deleteItem = (id) => {
