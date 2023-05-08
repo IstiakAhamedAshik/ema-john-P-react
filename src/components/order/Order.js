@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 import Cart from '../Cart/Cart'
 import ItemrReview from '../itemreview/ItemrReview'
 import './order.css'
@@ -29,7 +29,27 @@ const Order = () => {
             ))}
           </div>
           <div className='order-container'>
-            <Cart cart={cart}></Cart>
+            <Cart cart={cart}>
+              <Link to='/shipping'>
+                <button
+                  style={{
+                    marginLeft: '25px',
+                    backgroundColor: 'green',
+                    color: 'white',
+                    fontSize: '10px',
+                    padding: '5px 8px',
+                    width: '100px',
+                    border: 'none',
+                    fontFamily: '-moz-initial',
+                    borderRadius: '10px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  Shipping
+                </button>
+              </Link>
+            </Cart>
           </div>
         </div>
       </div>
