@@ -1,0 +1,36 @@
+.form-container {
+  width: 350px;
+  height: 450px;
+  margin: 30px auto;
+  border: 2px solid rgb(155, 140, 140);
+  border-radius: 5px;
+  padding: 10px;
+}
+.form-control {
+  margin-left: 40px;
+}
+.form-control label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.form-control input {
+  width: 250px;
+  padding: 7px;
+  font-weight: 300;
+  font-size: 20px;
+  border: 1px solid rgb(141, 129, 129);
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.form-control .loginbtn {
+  width: 267px;
+  margin-top: 20px;
+  background-color: rgb(240, 198, 82);
+  border-radius: 5px;
+  font-size: 21px;
+  font-weight: 400;
+  color: black;
+  cursor: pointer;
+}
